@@ -10,6 +10,6 @@ class Order < ApplicationRecord
    has_many :product_lists
 
    def generate_token
-      self.token = SecureRandom.uuid 
+      self.token = SecureRandom.uuid
    end
 end
